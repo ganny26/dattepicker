@@ -6,7 +6,7 @@ import {
   } from 'material-ui/Stepper';
   import RaisedButton from 'material-ui/RaisedButton';
   import FlatButton from 'material-ui/FlatButton';
-
+import CropImage from'./CropImage';
   class StepFlow extends Component{
     /**default state */
     state = {
@@ -32,7 +32,7 @@ import {
       getStepContent(stepIndex) {
         switch (stepIndex) {
           case 0:
-            return 'Select campaign settings...';
+            return <CropImage/>;
           case 1:
             return 'What is an ad group anyways?';
           case 2:

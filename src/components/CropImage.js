@@ -14,6 +14,7 @@ class CropImage extends Component {
   
     render() {
     return (
+        <div>
         <Table>
         <TableHeader>
           <TableRow>
@@ -28,6 +29,7 @@ class CropImage extends Component {
         <TableRowColumn>Employed</TableRowColumn>
       </TableRow>
         </Table>
+        </div>
     );
   }
 }
