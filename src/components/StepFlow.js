@@ -4,8 +4,9 @@ import {
     Stepper,
     StepLabel,
   } from 'material-ui/Stepper';
-  import RaisedButton from 'material-ui/RaisedButton';
-  import FlatButton from 'material-ui/FlatButton';
+import RaisedButton from 'material-ui/RaisedButton';
+import FlatButton from 'material-ui/FlatButton';
+import ScanBatch from'./ScanBatch';
 
   class StepFlow extends Component{
     /**default state */
@@ -32,7 +33,7 @@ import {
       getStepContent(stepIndex) {
         switch (stepIndex) {
           case 0:
-            return 'Select campaign settings...';
+            return <ScanBatch/>;
           case 1:
             return 'What is an ad group anyways?';
           case 2:

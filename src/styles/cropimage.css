@@ -1,0 +1,18 @@
+
+
+.crop-img{
+    width: 50%;
+    height: 50%;
+}
+
+.dropzone{
+    width:100% !important;
+
+}
+
+.dropsubtext{
+    top:40%;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
